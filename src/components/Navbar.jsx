@@ -9,22 +9,22 @@ const services = [
 
 export default function Navbar() {
   return (
-    <header className="w-full border-b border-slate-200 bg-[#F8F9FA]">
+    <header className="w-full h-24 border-b border-slate-200 bg-[#F8F9FA]">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
          {/* Logo */}
-        <Link href="/" className="flex items-center gap-3">
-          <Image
-            src="/Logo-EXPERT-UP-Carre.png"
-            alt="Expert UP - Cabinet de comptabilité"
-            width={110}
-            height={80}
-            priority
-            className="object-contain p-7"
-          />
-      </Link>
+        <Link href="/" className="flex items-center gap-3 transition-transform hover:scale-105">
+  <Image
+    src="/Logo-EXPERT-UP-Carre.png"
+    alt="Expert UP - Cabinet de comptabilité"
+    width={80}
+    height={60}
+    priority
+    className="object-contain mx-4 mt-7"
+  />
+</Link>
         {/* Menu desktop */}
-        <nav className="hidden items-center gap-6 md:flex">
-          <Link href="/" className="text-sm font-medium text-slate-700 hover:text-slate-900">
+        <nav className="hidden items-center gap-6 md:flex mt-4">
+          <Link href="/" className="text- font-medium text-slate-700 hover:text-slate-900">
             Accueil
           </Link>
 
@@ -99,7 +99,7 @@ export default function Navbar() {
         {/* Bouton téléphone */}
         <a
           href="tel:+33658100608"
-          className="inline-flex items-center gap-2 rounded-xl bg-[#1D428A] px-4 py-2 text-sm font-semibold text-white hover:bg-slate-800"
+          className="inline-flex items-center gap-2 rounded-xl bg-[#1D428A] px-4 py-2 text-sm font-semibold text-white hover:bg-[#042f84] mt-4"
           aria-label="Appeler le 06 58 10 06 08"
         >
           <svg

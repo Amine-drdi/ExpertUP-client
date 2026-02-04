@@ -4,14 +4,14 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section className="bg-[#F8F9FA]">
-      <div className="mx-auto max-w-6xl px-4 py-3 md:py-10">
+      <div className="mx-auto max-w-6xl px-4 py-3 md:py-4">
         <div className="grid items-center gap-12 md:grid-cols-2">
           
           {/* LEFT CONTENT */}
           <div>
-            <h1 className="mt-5 text-4xl font-extrabold tracking-tight text-slate-900 md:text-5xl">
+              <h1 className="text-5xl lg:text-6xl font-bold text-[#1d428a] leading-tight">
               Expert-comptable digital,
-              <span className="block">proche et réactif.</span>
+              <span className="block nt bg-clip-text text-[#EE7803]">proche et réactif.</span>
             </h1>
 
             <p className="mt-5 max-w-xl text-lg leading-relaxed text-slate-700">
@@ -36,16 +36,18 @@ export default function Hero() {
             <div className="mt-8 flex flex-wrap items-center gap-3">
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center rounded-2xl bg-slate-900 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800"
+                className="inline-flex items-center justify-center rounded-2xl bg-[#1d428a] px-6 py-3 text-sm font-semibold text-white hover:bg-[#042f84]"
               >
                 Parler à un expert
               </Link>
 
               <a
-                href="tel:+33658100608"
-                className="inline-flex items-center justify-center rounded-2xl border border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-slate-900 hover:bg-slate-50"
+              target="_blank"
+            rel="noreferrer"
+                href="https://calendly.com/expert-up"
+                className="inline-flex items-center justify-center rounded-2xl border border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-[#1d428a] hover:bg-slate-50"
               >
-                06 58 10 06 08
+                Prendre un Rendez-vous
               </a>
             </div>
 

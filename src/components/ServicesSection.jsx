@@ -37,11 +37,12 @@ export default function ServicesSection() {
     <section className="bg-[#F8F9FA]">
       <div className="mx-auto max-w-6xl px-4 py-16">
         {/* Title */}
-        <div className="mb-12">
-          <h2 className="text-3xl font-extrabold tracking-tight text-slate-900">
+          {/* En-tête de section */}
+        <div className="mb-16 text-center">
+          <h2 className="text-4xl font-bold tracking-tight text-[#1d428a] md:text-5xl">
             Nos services
           </h2>
-          <p className="mt-2 max-w-2xl text-slate-600">
+          <p className="mx-auto mt-4 max-w-2xl text-lg text-slate-600">
             Des solutions pensées pour chaque profil, avec un accompagnement humain et moderne.
           </p>
         </div>

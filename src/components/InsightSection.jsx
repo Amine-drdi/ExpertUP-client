@@ -11,7 +11,7 @@ export default function InsightSection() {
           <div className="relative">
             <div className="overflow-hidden ">
               <Image
-                src="/Images/expert.png"
+                src="/Images/comptables.png"
                 alt="Experts en conseil et transformation"
                 width={560}
                 height={420}
@@ -22,7 +22,7 @@ export default function InsightSection() {
 
           {/* RIGHT CONTENT */}
           <div>
-            <h2 className="text-3xl font-extrabold tracking-tight text-slate-900 md:text-4xl">
+            <h2 className="text-3xl font-extrabold tracking-tight text-[#1d428a] md:text-4xl">
               Besoin d’un nouveau regard sur vos enjeux ?
             </h2>
 
@@ -41,7 +41,7 @@ export default function InsightSection() {
             <div className="mt-8 flex flex-wrap items-center gap-3">
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center rounded-2xl bg-slate-900 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800"
+                className="inline-flex items-center justify-center rounded-2xl bg-[#1d428a] px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800"
               >
                 Échanger avec un expert
               </Link>

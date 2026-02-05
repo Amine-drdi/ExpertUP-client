@@ -166,7 +166,7 @@ export default function TestimonialsSection() {
   }, [isPaused]);
 
   return (
-    <section className="relative overflow-hidden py-20 bg-[#F8F9FA]">
+    <section className="relative overflow-hidden py-8 bg-[#F8F9FA]">
       {/* Premium background */}
       
       <div className="absolute inset-0 opacity-[0.25] [background-image:radial-gradient(#cbd5e1_1px,transparent_1px)] [background-size:18px_18px]" />
@@ -317,7 +317,9 @@ export default function TestimonialsSection() {
             </div>
 
             <a
-              href="/contact"
+              target="_blank"
+            rel="noreferrer"
+                href="https://calendly.com/margaux-expert-up/30min"
               className="inline-flex items-center justify-center rounded-2xl px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:brightness-95"
               style={{ backgroundColor: BRAND.blue }}
             >

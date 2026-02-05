@@ -4,7 +4,7 @@ import InsightSection from "@/components/InsightSection";
 import AccompagnementProcess from "@/components/AccompagnementProcess";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import FaqSection from "@/components/FaqSection";
-import Footer from "@/components/Footer";
+
 
 export default function HomePage() {
   return (
@@ -15,7 +15,7 @@ export default function HomePage() {
       <AccompagnementProcess/>
       <TestimonialsSection/>
       <FaqSection/>
-      <Footer/>
+      
     </>
   );
 }

@@ -94,8 +94,7 @@ export default function Navbar() {
           <Link href="/contact" className="text-sm font-medium text-slate-700 hover:text-slate-900">
             Contact
           </Link>
-        </nav>
-
+        </nav> 
         {/* Bouton téléphone */}
         <a
           href="tel:+33658100608"

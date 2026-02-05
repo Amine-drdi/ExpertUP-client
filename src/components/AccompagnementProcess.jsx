@@ -161,7 +161,9 @@ export default function AccompagnementProcess() {
 
             <div className="flex-shrink-0">
                <a
-              href="/contact"
+              target="_blank"
+            rel="noreferrer"
+                href="https://calendly.com/margaux-expert-up/30min"
               className="inline-flex items-center justify-center rounded-2xl px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:brightness-95"
               style={{ backgroundColor: BRAND.blue }}
             >

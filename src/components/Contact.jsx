@@ -6,7 +6,7 @@ const BRAND = { blue: "#2E3E6B", orange: "#ED702C" };
 
 export default function Contact() {
   // ⚠️ Remplace par l’adresse exacte du cabinet (utile pour Maps)
-  const address = "Paris, France";
+  const address = "82 RUE DE LA FAISANDERIE, 75016 PARIS";
   const phoneDisplay = "06 58 10 06 08";
   const phoneHref = "+33658100608";
   const email = "contact@expert-up.fr";
@@ -14,7 +14,7 @@ export default function Contact() {
   // Google Maps embed (tu peux remplacer par ton lien embed exact)
   const mapsSrc = useMemo(() => {
     const q = encodeURIComponent(address);
-    return `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2946.049004957694!2d2.284520447418558!3d48.86523762242639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66ffafc6ce8f9%3A0xe7385900510b6f1!2s22%20Av.%20Raymond%20Poincar%C3%A9%2C%2075116%20Paris!5e0!3m2!1sfr!2sfr!4v1770295685001!5m2!1sfr!2sfr`;
+    return `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d463.9584710177052!2d2.2741908082887017!3d48.86687969702178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66557651a8929%3A0x1097fd16e97a2768!2s82%20Rue%20de%20la%20Faisanderie%2C%2075116%20Paris%2C%20France!5e0!3m2!1sfr!2stn!4v1770389297902!5m2!1sfr!2stn`;
   }, [address]);
   // Form state (UI only — à connecter à ton backend / API route ensuite)
   const [status, setStatus] = useState({ state: "idle", msg: "" });

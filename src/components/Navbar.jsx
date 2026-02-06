@@ -83,7 +83,7 @@ export default function Navbar() {
             Pennylane
           </a>
 
-          <Link href="/notre-cabinet" className="text-sm font-medium text-slate-700 hover:text-slate-900">
+          <Link href="/Notre-cabinet" className="text-sm font-medium text-slate-700 hover:text-slate-900">
             Notre cabinet
           </Link>
 

@@ -267,7 +267,7 @@ function HistoireTimeline() {
             <svg className="h-4 w-4 text-orange-600" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
             </svg>
-            <span className="text-sm font-semibold text-orange-900">Chiffres clés</span>
+            <span className="text-sm font-semibold text-orange-900">Notre Histoire</span>
           </div>
         <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-[#1d428a] md:text-4xl">
           Une trajectoire construite autour de l’impact.

@@ -42,7 +42,10 @@ export default function PilotageEntreprise() {
               src="/images/pilotageentreprises.png"
               alt="Pilotage et stratégie d'entreprise"
               fill
-              className="object-cover"
+               sizes="(max-width: 768px) 100vw, 50vw"
+    priority
+    className="object-cover"
+    
             />
           </div>
         </div>

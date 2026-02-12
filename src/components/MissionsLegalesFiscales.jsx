@@ -43,7 +43,10 @@ export default function MissionsLegalesFiscales() {
               src="/images/expertcomptable.png"
               alt="Expertise comptable et fiscale"
               fill
-              className="object-cover "
+               sizes="(max-width: 768px) 100vw, 50vw"
+    priority
+    className="object-cover"
+    
             />
           </div>
         </div>

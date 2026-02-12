@@ -12,7 +12,7 @@ const services = [
 ];
 
 const companyLinks = [
-  { label: "Le cabinet", href: "/notre-cabinet" },
+  { label: "Le cabinet", href: "/Notre-cabinet" },
   { label: "Ressources / Blog", href: "/blog" },
   { label: "FAQ", href: "/faq" },
   { label: "Contact", href: "/contact" },

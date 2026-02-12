@@ -40,7 +40,7 @@ export default function MissionsLegalesFiscales() {
 
           <div className="relative h-[350px] md:h-[450px]">
             <Image
-              src="/images/Expert-comptable.png"
+              src="/images/expertcomptable.png"
               alt="Expertise comptable et fiscale"
               fill
               className="object-cover "

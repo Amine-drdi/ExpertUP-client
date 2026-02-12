@@ -39,7 +39,7 @@ export default function PilotageEntreprise() {
 
           <div className="relative h-[350px] md:h-[450px]">
             <Image
-              src="/images/Pilotage-entreprises.png"
+              src="/images/pilotageentreprises.png"
               alt="Pilotage et stratégie d'entreprise"
               fill
               className="object-cover"

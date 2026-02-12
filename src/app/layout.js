@@ -1,6 +1,7 @@
 import "./globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "@/components/Footer";
+
 export const metadata = {
   metadataBase: new URL("https://www.expert-up.fr"), // ⚠️ remplace par ton vrai domaine
 
@@ -27,7 +28,10 @@ export const metadata = {
   publisher: "Expert-UP",
 
   icons: {
-    icon: "/Logo-EXPERT-UP-Carre.png",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/Logo-EXPERT-UP-Carre.png", type: "image/png" },
+    ],
     shortcut: "/Logo-EXPERT-UP-Carre.png",
     apple: "/Logo-EXPERT-UP-Carre.png",
   },
@@ -63,6 +67,7 @@ export const metadata = {
     follow: true,
   },
 };
+
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">

@@ -63,7 +63,7 @@ export default function Blogs() {
               </div>
 
               {/* Contenu */}
-              <div className="p-6 flex flex-col h-full">
+              <div className="p-6 flex flex-col h-56">
                 <span className="text-xs font-semibold text-blue-600 mb-2">
                   {blog.category}
                 </span>
@@ -78,7 +78,7 @@ export default function Blogs() {
 
                 <Link
                   href={`/blog/${blog.slug}`}
-                  className="mt-auto inline-flex items-center text-blue-600 font-medium hover:underline"
+                  className="mt-3 inline-flex items-center text-blue-600 font-medium hover:underline"
                 >
                   Lire l’article →
                 </Link>

@@ -322,11 +322,11 @@ function ChiffresPremium() {
       <div className="relative overflow-hidden p-10 ">
         <div
           className="absolute -top-24 -right-24 h-72 w-72 rounded-full blur-3xl"
-          style={{ backgroundColor: "rgba(46,62,107,0.16)" }}
+          
         />
         <div
           className="absolute -bottom-24 -left-24 h-72 w-72 rounded-full blur-3xl"
-          style={{ backgroundColor: "rgba(237,112,44,0.12)" }}
+          
         />
 
         <div className="relative flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
@@ -377,17 +377,17 @@ function ChiffresPremium() {
 
 function FondatricePremium() {
   return (
-    <div className="mx-auto max-w-6xl px-4 pb-20 pt-10">
+    <div className="mx-auto max-w-6xl px-4 pb-20 pt-10 ">
       <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
         {/* Editorial card */}
         <div className="relative overflow-hidden   p-10 r">
           <div
             className="absolute -top-24 -right-24 h-72 w-72 rounded-full blur-3xl"
-            style={{ backgroundColor: "rgba(237,112,44,0.12)" }}
+            
           />
           <div
             className="absolute -bottom-24 -left-24 h-72 w-72 rounded-full blur-3xl"
-            style={{ backgroundColor: "rgba(46,62,107,0.16)" }}
+            
           />
 
           <div className="relative p-4">
@@ -456,7 +456,7 @@ function FondatricePremium() {
               alt="Margaux Zenou - Fondatrice Expert-UP"
               width={1100}
               height={900}
-              className="h-[520px] w-full object-cover md:h-[640px]"
+              className="h-[520px] w-full object-contain md:h-[700px]"
             />
 
             <div className="border-t border-slate-200 bg-white p-6">

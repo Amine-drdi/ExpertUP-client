@@ -53,7 +53,7 @@ export default function Blogs() {
               className="bg-white rounded-2xl shadow-sm hover:shadow-lg transition overflow-hidden group flex flex-col"
             >
               {/* Image */}
-              <div className="relative h-52 w-full overflow-hidden">
+              <div className="relative h-72 w-full overflow-hidden">
                 <Image
                   src={blog.image}
                   alt={blog.title}

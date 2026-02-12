@@ -38,18 +38,20 @@ export default function Footer() {
           {/* Brand */}
           <div className="group">
             <Link href="/" className="flex items-center gap-4">
-              <div className="relative flex h-14 w-14 items-center justify-center rounded-2xl shadow-md transition-all duration-300 group-hover:shadow-xl group-hover:scale-105">
+              <div className="relative flex h-20 w-20 items-center justify-center rounded-2xl shadow-md transition-all duration-300 group-hover:shadow-xl group-hover:scale-105">
                 <Image
-                  src="/Logo-EXPERT-UP-Carre.png"
-                  alt="Expert UP"
-                  width={56}
-                  height={56}
-                  className="object-contain transition-transform duration-300 group-hover:rotate-3"
-                />
+            src="/Logo-EXPERT-UP-Carre.png"
+            alt="Expert UP - Cabinet de comptabilité"
+            width={120}
+            height={90}
+            priority
+            className="object-contain w-auto h-14 md:h-16"
+          />
+        
               </div>
 
               <div className="leading-tight">
-                <p className="text-xs text-slate-500 transition-colors duration-300 group-hover:text-slate-700">
+                <p className="text-xs text-slate-700 transition-colors duration-300 group-hover:text-slate-900">
                   Expertise comptable • Fiscalité • Conseil
                 </p>
               </div>

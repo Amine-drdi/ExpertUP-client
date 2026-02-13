@@ -142,7 +142,7 @@ export default function Footer() {
             >
               <div className="relative flex h-20 w-20 items-center justify-center rounded-2xl shadow-md transition-all duration-300 group-hover:shadow-xl group-hover:scale-105 bg-white">
                 <Image
-                  src="/Logo-EXPERT-UP-Carre.png"
+                  src="/logo.png"
                   alt="Logo Expert UP"
                   width={120}
                   height={90}

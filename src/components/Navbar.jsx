@@ -20,7 +20,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center transition-transform hover:scale-105">
           <Image
-            src="/Logo-EXPERT-UP-Carre.png"
+            src="/logo.png"
             alt="Expert UP - Cabinet de comptabilité"
             width={120}
             height={90}
@@ -62,7 +62,7 @@ export default function Navbar() {
             </div>
           </div>
 
-          <a href="https://www.pennylane.com/fr" target="_blank" rel="noreferrer" className="text-base font-semibold text-[#142c5d] hover:text-[#21499a] transition-colors px-2 py-1">
+          <a href="/pennylane"  className="text-base font-semibold text-[#142c5d] hover:text-[#21499a] transition-colors px-2 py-1">
             Pennylane
           </a>
           <Link href="/Notre-cabinet" className="text-base font-semibold text-[#142c5d] hover:text-[#21499a] transition-colors px-2 py-1">
@@ -152,9 +152,7 @@ export default function Navbar() {
             </div>
 
             <a
-              href="https://www.pennylane.com/fr"
-              target="_blank"
-              rel="noreferrer"
+              href="/pennylane"
               className="text-base font-semibold text-slate-800 hover:text-[#1D428A] px-4 py-2 rounded-lg hover:bg-slate-50 transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >

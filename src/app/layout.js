@@ -27,14 +27,12 @@ export const metadata = {
   creator: "Expert-UP",
   publisher: "Expert-UP",
 
-  icons: {
-    icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/Logo-EXPERT-UP-Carre.png", type: "image/png" },
-    ],
-    shortcut: "/Logo-EXPERT-UP-Carre.png",
-    apple: "/Logo-EXPERT-UP-Carre.png",
-  },
+icons: {
+  icon: "/favicon.ico",
+  shortcut: "/favicon.ico",
+  apple: "/logo.png",
+},
+
 
   openGraph: {
     type: "website",
@@ -46,7 +44,7 @@ export const metadata = {
       "Un cabinet à taille humaine, expert en comptabilité, fiscalité et pilotage d’entreprise.",
     images: [
       {
-        url: "/Logo-EXPERT-UP-Carre.png",
+        url: "/logo.png",
         width: 1200,
         height: 630,
         alt: "Expert-UP Cabinet Comptable",
@@ -59,7 +57,7 @@ export const metadata = {
     title: "Expert-UP | Cabinet Comptable & Conseil",
     description:
       "Accompagnement stratégique des entrepreneurs en comptabilité et fiscalité.",
-    images: ["/Logo-EXPERT-UP-Carre.png"],
+    images: ["/logo.png"],
   },
 
   robots: {

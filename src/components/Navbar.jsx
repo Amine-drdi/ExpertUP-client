@@ -6,7 +6,7 @@ import { useState } from "react";
 const services = [
   { label: "Missions légales et fiscales", href: "/services/missions-legales-fiscales" },
   { label: "Pilotage d’entreprise", href: "/services/pilotage-entreprise" },
-  { label: "Accompagnement 360", href: "/services/accompagnement-360" },
+  { label: "Accompagnement 360", href: "/services/accompagnement360" },
   { label: "Gestion de patrimoine", href: "/services/gestion-patrimoine" },
 ];
 

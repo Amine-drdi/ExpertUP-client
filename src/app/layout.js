@@ -28,8 +28,8 @@ export const metadata = {
   publisher: "Expert-UP",
 
 icons: {
-  icon: "/favicon.ico",
-  shortcut: "/favicon.ico",
+ icon: "/logo.png",
+  shortcut: "/logo.png",
   apple: "/logo.png",
 },
 

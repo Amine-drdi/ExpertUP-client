@@ -109,11 +109,11 @@ export default function FaqSection({
                 >
                   <div className="flex items-start gap-3">
                     <span
-                      className="mt-1 inline-block h-2.5 w-2.5 rounded-full"
-                      style={{ backgroundColor: BRAND.orange }}
+                      className="mt-1 inline-block h-2.5 w-2.5 rounded-full bg-[#1d428a]"
+                      
                       aria-hidden="true"
                     />
-                    <span className="text-base font-extrabold text-slate-900">
+                    <span className="text-lg font-semibold text-[#1D428A]">
                       {item.q}
                     </span>
                   </div>

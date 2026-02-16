@@ -73,7 +73,7 @@ function HeroPremium() {
             </Link>
 
             <Link
-              href="/services/pilotage-entreprise"
+              href="/services"
               className="inline-flex items-center justify-center rounded-2xl border border-slate-200 bg-white px-6 py-3 text-sm font-semibold text-slate-900 transition hover:bg-slate-50"
             >
               Voir notre approche

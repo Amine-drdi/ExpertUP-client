@@ -6,7 +6,7 @@ export default function MissionsLegalesFiscales() {
     <main className="bg-[#F8F9FA] text-slate-900">
 
       {/* ================= HERO ================= */}
-      <section className="bg-[#F8F9FA] py-16">
+      <section className="bg-[#F8F9FA] py-10">
         <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
 
           <div>
@@ -38,7 +38,7 @@ export default function MissionsLegalesFiscales() {
             </div>
           </div>
 
-          <div className="relative h-[350px] md:h-[450px]">
+          <div className="relative h-[350px] md:h-[550px]">
             <Image
               src="/Images/missions-legales-fiscales.png"
               alt="Expertise comptable et fiscale"

@@ -10,10 +10,11 @@ export default function OurServices() {
   const services = {
     accompagnement: {
       title: "Accompagnement 360°",
+      slug: "accompagnement360", // Ajout du slug
       subtitle: "Un partenaire unique pour tous vos enjeux",
       description: "Comptabilité, fiscalité, juridique, social, pilotage, stratégie... Nous coordonnons l'ensemble des expertises pour vous offrir une solution intégrée et sans couture.",
       icon: "🔄",
-      image: "/images/Accompagnement.png",
+      image: "/Images/Accompagnement.png",
       color: "from-blue-600 to-indigo-700",
       features: [
         { icon: "📊", title: "Comptabilité & fiscalité", text: "Tenue comptable, déclarations fiscales et optimisation" },
@@ -23,6 +24,7 @@ export default function OurServices() {
     },
     missionsLegales: {
       title: "Missions légales & fiscales",
+      slug: "missions-legales-fiscales", // Ajout du slug
       subtitle: "Sécuriser aujourd'hui. Optimiser demain.",
       description: "Nous accompagnons les dirigeants dans la gestion et la sécurisation de leurs obligations comptables et fiscales. Transformez vos contraintes en leviers de performance.",
       icon: "⚖️",
@@ -36,6 +38,7 @@ export default function OurServices() {
     },
     pilotage: {
       title: "Pilotage d'entreprise",
+      slug: "pilotage-entreprise", // Ajout du slug
       subtitle: "Piloter. Anticiper. Transformer.",
       description: "Nous vous apportons les outils, les méthodes et le recul nécessaires pour piloter votre entreprise avec agilité. Transformez vos données en décisions stratégiques.",
       icon: "📈",
@@ -49,6 +52,7 @@ export default function OurServices() {
     },
     patrimoine: {
       title: "Gestion de patrimoine",
+      slug: "gestion-patrimoine", // Ajout du slug
       subtitle: "Bâtir, protéger, transmettre",
       description: "Nous accompagnons les dirigeants dans la construction, la protection et la transmission de leur patrimoine professionnel et personnel.",
       icon: "🏦",
@@ -227,12 +231,17 @@ export default function OurServices() {
                 <h3 className="text-xl font-bold text-[#1D428A] mb-2">{service.title}</h3>
                 <p className="text-slate-600 text-sm line-clamp-3">{service.description}</p>
                 
-                <div className="mt-4 flex items-center text-blue-600 text-sm font-medium">
+                {/* MODIFICATION ICI : Lien "Découvrir" avec redirection vers la page de service spécifique */}
+                <Link 
+                  href={`/services/${service.slug}`}
+                  className="mt-4 inline-flex items-center text-blue-600 text-sm font-medium group/link"
+                  onClick={(e) => e.stopPropagation()} // Empêche le déclenchement du onClick du parent
+                >
                   <span>Découvrir</span>
-                  <svg className="ml-1 w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="ml-1 w-4 h-4 group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
-                </div>
+                </Link>
               </div>
             ))}
           </div>
@@ -265,14 +274,14 @@ export default function OurServices() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </Link>
-                  <Link
-                    href="https://calendly.com/margaux-expert-up/30min?month=2026-02"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="inline-flex items-center px-6 py-3 bg-orange-500 text-white rounded-xl font-semibold hover:bg-orange-600 transition-all transform hover:scale-105 shadow-lg"
-                  >
-                    Prendre un rendez-vous
-                  </Link>
+            <Link
+              href="https://calendly.com/margaux-expert-up/30min?month=2026-02"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center px-6 py-3 bg-orange-500 text-white rounded-xl font-semibold hover:bg-orange-600 transition-all transform hover:scale-105 shadow-lg"
+            >
+              Prendre un rendez-vous
+            </Link>
           </div>
         </div>
       </section>

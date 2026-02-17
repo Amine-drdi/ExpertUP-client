@@ -5,7 +5,7 @@ export default function PennylanePlatform() {
     <main className="bg-[#F8F9FA] text-slate-900">
 
       {/* — Hero — */}
-      <section className="bg-[#F8F9FA] py-20">
+      <section className="bg-[#F8F9FA] py-10">
         <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
           
           <div>
@@ -29,7 +29,7 @@ export default function PennylanePlatform() {
             </a>
           </div>
 
-          <div className="relative h-[350px] md:h-[500px]">
+          <div className="relative h-[350px] md:h-[600px]">
             <Image
               src="/Images/pennylane-dashboard.webp"
               alt="Pennylane Dashboard"

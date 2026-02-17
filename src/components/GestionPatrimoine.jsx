@@ -37,7 +37,7 @@ export default function GestionPatrimoine() {
             </div>
           </div>
 
-          <div className="relative h-[350px] md:h-[450px]">
+          <div className="relative h-[350px] md:h-[500px]">
             <Image
               src="/Images/Gestionpatrimoine.png"
               alt="Gestion de patrimoine pour dirigeants"

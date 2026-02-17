@@ -3,10 +3,10 @@ import FaqSection from "./FaqSection";
 
 export default function Accompagnement360() {
   return (
-    <main className="bg-[#F8F9FA] py-16">
+    <main className="bg-[#F8F9FA] py-10">
 
       {/* ================= HERO ================= */}
-      <section className="bg-slate-50 py-16">
+      <section className="bg-slate-50 py-10">
         <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
 
           <div>
@@ -37,9 +37,9 @@ export default function Accompagnement360() {
             </div>
           </div>
 
-          <div className="relative h-[350px] md:h-[450px]">
+          <div className="relative h-[350px] md:h-[500px]">
             <Image
-              src="/images/Accompagnement.png"
+              src="/Images/Accompagnement.png"
               alt="Accompagnement global d'entreprise"
               fill
               className="object-cover"

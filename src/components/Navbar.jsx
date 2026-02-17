@@ -31,7 +31,6 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <nav className="hidden items-center gap-8 md:flex">
-          {/* ... (menu desktop existant) */}
           <Link href="/" className="text-base font-semibold text-[#142c5d] hover:text-[#21499a] transition-colors px-2 py-1">
             Accueil
           </Link>
@@ -45,7 +44,6 @@ export default function Navbar() {
               </svg>
             </button>
             <div className="invisible absolute left-0 top-full z-50 mt-2 w-80 rounded-xl border border-slate-100 bg-white py-2 shadow-xl opacity-0 transition-all duration-200 group-hover:visible group-hover:opacity-100">
-              {/* ... dropdown content ... */}
               <div className="px-4 pb-2 pt-1">
                 <p className="text-xs font-bold uppercase tracking-wider text-[#1D428A]">Nos services</p>
               </div>
@@ -59,10 +57,23 @@ export default function Navbar() {
                   </li>
                 ))}
               </ul>
+              
+              {/* CTA Button - Voir tous nos services */}
+              <div className="px-2 pt-2 mt-1 border-t border-slate-100">
+                <Link
+                  href="/services"
+                  className="flex items-center justify-center gap-2 rounded-lg bg-[#1D428A] px-4 py-2.5 text-sm font-semibold text-white hover:bg-[#0f2a5a] transition-colors w-full"
+                >
+                  Voir tous nos services
+                  <svg className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                    <path fillRule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clipRule="evenodd" />
+                  </svg>
+                </Link>
+              </div>
             </div>
           </div>
 
-          <a href="/pennylane"  className="text-base font-semibold text-[#142c5d] hover:text-[#21499a] transition-colors px-2 py-1">
+          <a href="/pennylane" className="text-base font-semibold text-[#142c5d] hover:text-[#21499a] transition-colors px-2 py-1">
             Pennylane
           </a>
           <Link href="/Notre-cabinet" className="text-base font-semibold text-[#142c5d] hover:text-[#21499a] transition-colors px-2 py-1">
@@ -148,6 +159,18 @@ export default function Navbar() {
                     {s.label}
                   </Link>
                 ))}
+                
+                {/* Mobile CTA Button - Voir tous nos services */}
+                <Link
+                  href="/services"
+                  className="flex items-center justify-center gap-2 rounded-lg bg-[#1D428A] px-4 py-2.5 text-sm font-semibold text-white hover:bg-[#0f2a5a] transition-colors mt-2"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  Voir tous nos services
+                  <svg className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                    <path fillRule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clipRule="evenodd" />
+                  </svg>
+                </Link>
               </div>
             </div>
 
